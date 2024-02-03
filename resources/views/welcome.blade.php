@@ -1,0 +1,9 @@
+@extends('main.layouts.index')
+@section('content')
+    @include('main.pages.banner')
+    @include('main.pages.services')
+    @include('main.pages.about')
+    @include('main.pages.comments')
+    @include('main.pages.Surgery')
+    @include('main.pages.Partners')
+@stop
